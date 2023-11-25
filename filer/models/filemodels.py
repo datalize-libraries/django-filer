@@ -20,6 +20,8 @@ from ..fields.multistorage_file import MultiStorageFileField
 from . import mixins
 from .foldermodels import Folder
 
+from transliterate import translit
+
 
 class FileQuerySet(PolymorphicQuerySet):
     def only(self, *fields):
@@ -282,9 +284,19 @@ class File(PolymorphicModel, mixins.IconsMixin):
         # to make sure later operations can read the whole file
         self.file.seek(0)
 
+
+    def prepare_name(self):
+        name = self.file.name.split('.')[0]
+        format = self.file.name.split('.')[-1]
+
+        return f"{translit(name, 'ru', reversed=True)}.{format}"
+
+
     def save(self, *args, **kwargs):
         # check if this is a subclass of "File" or not and set
         # _file_type_plugin_name
+        self.file.name = self.prepare_name()
+        
         if self.__class__ == File:
             # what should we do now?
             # maybe this has a subclass, but is being saved as a File instance
