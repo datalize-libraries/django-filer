@@ -8,6 +8,7 @@ REQUIREMENTS = [
     'django>=3.2,<5.1',
     'django-polymorphic',
     'easy-thumbnails[svg]',
+    'transliterate>=1.10.1,<1.10.3'
 ]
 
 
