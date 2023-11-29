@@ -1215,38 +1215,38 @@ msgstr ""
 #~ msgid "Choose resize parameters:"
 #~ msgstr "Выберите параметры:"
 
-#~ msgid "Open file"
-#~ msgstr "Открыть файл"
+msgid "Open file"
+msgstr "Открыть файл"
 
-#~ msgid "Full size preview"
-#~ msgstr "Открыть"
+msgid "Full size preview"
+msgstr "Открыть"
 
-#~ msgid "Add Description"
-#~ msgstr "Добавить описание"
+msgid "Add Description"
+msgstr "Добавить описание"
 
-#~ msgid "Author"
-#~ msgstr "Автор"
+msgid "Author"
+msgstr "Автор"
 
 #~ msgid "Add Alt-Text"
 #~ msgstr "Add Alt-Text"
 
-#~ msgid "Add caption"
-#~ msgstr "Добавить описание"
+msgid "Add caption"
+msgstr "Добавить описание"
 
-#~ msgid "Add Tags"
-#~ msgstr "Добавить теги"
+msgid "Add Tags"
+msgstr "Добавить теги"
 
-#~ msgid "Change File"
-#~ msgstr "Изменить файл"
+msgid "Change File"
+msgstr "Изменить файл"
 
-#~ msgid "none selected"
-#~ msgstr "none selected"
+msgid "none selected"
+msgstr "none selected"
 
-#~ msgid "Add Folder"
-#~ msgstr "Добавить папку"
+msgid "Add Folder"
+msgstr "Добавить папку"
 
-#~ msgid "Subject Location"
-#~ msgstr "Расположении объекта"
+msgid "Subject Location"
+msgstr "Расположении объекта"
 
 #~ msgid ""
 #~ "\n"
@@ -1259,5 +1259,5 @@ msgstr ""
 #~ msgstr[2] "15c0f2d28d6dab1af1f6d94906beb627_pl_2"
 #~ msgstr[3] "15c0f2d28d6dab1af1f6d94906beb627_pl_3"
 
-#~ msgid "Upload File"
-#~ msgstr "Загрузить файл"
+msgid "Upload File"
+msgstr "Загрузить файл"
