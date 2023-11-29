@@ -29,15 +29,15 @@ msgstr ""
 
 #: admin/clipboardadmin.py:17
 msgid "You do not have permission to upload files."
-msgstr ""
+msgstr "У вас нет разрешений на загрузку файлов."
 
 #: admin/clipboardadmin.py:18
 msgid "Can't find folder to upload. Please refresh and try again"
-msgstr ""
+msgstr "Невозможно найти папку. Пожалуйста, обновите страницу и попробуйте снова."
 
 #: admin/clipboardadmin.py:20
 msgid "Can't use this folder, Permission Denied. Please select another folder."
-msgstr ""
+msgstr "Нельзя использовать эту папку. Нет доступа. Выберите другую папку."
 
 #: admin/fileadmin.py:73
 msgid "Advanced"
@@ -254,11 +254,11 @@ msgstr "Вы ввели: \"{subject_location}\". "
 
 #: admin/permissionadmin.py:10 models/foldermodels.py:380
 msgid "Who"
-msgstr ""
+msgstr "Пользователи"
 
 #: admin/permissionadmin.py:11 models/foldermodels.py:401
 msgid "What"
-msgstr ""
+msgstr "Разрешения"
 
 #: admin/views.py:55
 msgid "Folder with this name already exists."
@@ -398,7 +398,7 @@ msgstr ""
 
 #: models/foldermodels.py:94
 msgid "parent"
-msgstr ""
+msgstr "родитель"
 
 #: models/foldermodels.py:121
 msgid "created at"
@@ -428,7 +428,7 @@ msgstr "этот элемент и потомки"
 
 #: models/foldermodels.py:266
 msgid "inherit"
-msgstr ""
+msgstr "наследовать"
 
 #: models/foldermodels.py:267
 msgid "allow"
@@ -472,53 +472,53 @@ msgstr "разрешения папки"
 
 #: models/foldermodels.py:348
 msgid "Folder cannot be selected with type \"all items\"."
-msgstr ""
+msgstr "Папка не может быть выбрана с типом \"all items\"."
 
 #: models/foldermodels.py:350
 msgid "Folder has to be selected when type is not \"all items\"."
-msgstr ""
+msgstr "Папка не может быть выбрана с типом \"all items\"."
 
 #: models/foldermodels.py:352
 msgid "User or group cannot be selected together with \"everybody\"."
-msgstr ""
+msgstr "Пользователь или группа не могут быть выбраны с типом \"everybody\"."
 
 #: models/foldermodels.py:354
 msgid "At least one of user, group, or \"everybody\" has to be selected."
-msgstr ""
+msgstr "Как минимум один пользователь, группа или \"everybody\" должны быть выбраны."
 
 #: models/foldermodels.py:360
 msgid "All Folders"
-msgstr ""
+msgstr "Все папки"
 
 #: models/foldermodels.py:362
 msgid "Logical Path"
-msgstr ""
+msgstr "Логическая папка"
 
 #: models/foldermodels.py:371
 #, python-brace-format
 msgid "User: {user}"
-msgstr ""
+msgstr "Пользователь: {user}"
 
 #: models/foldermodels.py:373
 #, python-brace-format
 msgid "Group: {group}"
-msgstr ""
+msgstr "Группа: {group}"
 
 #: models/foldermodels.py:375
 msgid "Everybody"
-msgstr ""
+msgstr "Все"
 
 #: models/foldermodels.py:388 templates/admin/filer/widgets/admin_file.html:45
 msgid "Edit"
-msgstr ""
+msgstr "Изменить"
 
 #: models/foldermodels.py:389
 msgid "Read"
-msgstr ""
+msgstr "Чтение"
 
 #: models/foldermodels.py:390
 msgid "Add children"
-msgstr ""
+msgstr "Добавить детей"
 
 #: models/imagemodels.py:18
 msgid "date taken"
@@ -568,11 +568,11 @@ msgstr "корень"
 
 #: settings.py:273
 msgid "Show table view"
-msgstr ""
+msgstr "Показать табличный вид"
 
 #: settings.py:278
 msgid "Show thumbnail view"
-msgstr ""
+msgstr "Показать вид иконок"
 
 #: templates/admin/filer/actions.html:5
 msgid "Run the selected action"
@@ -1054,11 +1054,11 @@ msgstr "Выбрать все %(total_count)s"
 #: templates/admin/filer/folder/directory_thumbnail_list.html:15
 #: templates/admin/filer/folder/directory_thumbnail_list.html:80
 msgid "Select all"
-msgstr ""
+msgstr "Выбрать все"
 
 #: templates/admin/filer/folder/directory_thumbnail_list.html:77
 msgid "Files"
-msgstr ""
+msgstr "Файлы"
 
 #: templates/admin/filer/folder/new_folder_form.html:4
 #: templates/admin/filer/folder/new_folder_form.html:7
@@ -1083,11 +1083,11 @@ msgstr "Сохранить"
 
 #: templates/admin/filer/templatetags/file_icon.html:9
 msgid "Your browser does not support audio."
-msgstr ""
+msgstr "Ваш браузер не поддерживает аудио."
 
 #: templates/admin/filer/templatetags/file_icon.html:14
 msgid "Your browser does not support video."
-msgstr ""
+msgstr "Ваш браузер не поддерживает видео."
 
 #: templates/admin/filer/tools/clipboard/clipboard.html:9
 msgid "Clipboard"
@@ -1115,17 +1115,17 @@ msgstr "загрузка не удалась"
 
 #: templates/admin/filer/tools/detail_info.html:11
 msgid "Download"
-msgstr ""
+msgstr "Скачать"
 
 #: templates/admin/filer/tools/detail_info.html:16
 msgid "Expand"
-msgstr ""
+msgstr "Развернуть"
 
 #: templates/admin/filer/tools/detail_info.html:21
 #: templates/admin/filer/widgets/admin_file.html:32
 #: templatetags/filer_admin_tags.py:108
 msgid "File is missing"
-msgstr ""
+msgstr "Файл отсутствует"
 
 #: templates/admin/filer/tools/detail_info.html:30
 msgid "Type"
@@ -1180,22 +1180,22 @@ msgstr "Выбрать файл"
 
 #: templates/admin/filer/widgets/admin_folder.html:16
 msgid "Choose Folder"
-msgstr ""
+msgstr "Выбрать папку"
 
 #: validation.py:20
 #, python-brace-format
 msgid "File \"{file_name}\": Upload denied by site security policy"
-msgstr ""
+msgstr "Файл \"{file_name}\": Загрузка запрещена безопасностью сайта"
 
 #: validation.py:23
 #, python-brace-format
 msgid "File \"{file_name}\": {file_type} upload denied by site security policy"
-msgstr ""
+msgstr "Файл \"{file_name}\": {file_type} Загрузка запрещена безопасностью сайта"
 
 #: validation.py:34
 #, python-brace-format
 msgid "File \"{file_name}\": HTML upload denied by site security policy"
-msgstr ""
+msgstr "Файл \"{file_name}\": Загрузка HTML запрещена безопасностью сайта"
 
 #: validation.py:72
 #, python-brace-format
@@ -1210,43 +1210,43 @@ msgid "File \"{file_name}\": SVG file format not recognized"
 msgstr ""
 
 #~ msgid "Resize parameters must be choosen."
-#~ msgstr "Resize parameters must be choosen."
+#~ msgstr "Необходимо выбрать параметры изменения размера."
 
 #~ msgid "Choose resize parameters:"
-#~ msgstr "Choose resize parameters:"
+#~ msgstr "Выберите параметры:"
 
 #~ msgid "Open file"
-#~ msgstr "Open file"
+#~ msgstr "Открыть файл"
 
 #~ msgid "Full size preview"
-#~ msgstr "Full size preview"
+#~ msgstr "Открыть"
 
 #~ msgid "Add Description"
-#~ msgstr "Add Description"
+#~ msgstr "Добавить описание"
 
 #~ msgid "Author"
-#~ msgstr "Author"
+#~ msgstr "Автор"
 
 #~ msgid "Add Alt-Text"
 #~ msgstr "Add Alt-Text"
 
 #~ msgid "Add caption"
-#~ msgstr "Add caption"
+#~ msgstr "Добавить описание"
 
 #~ msgid "Add Tags"
-#~ msgstr "Add Tags"
+#~ msgstr "Добавить теги"
 
 #~ msgid "Change File"
-#~ msgstr "Change File"
+#~ msgstr "Изменить файл"
 
 #~ msgid "none selected"
 #~ msgstr "none selected"
 
 #~ msgid "Add Folder"
-#~ msgstr "Add Folder"
+#~ msgstr "Добавить папку"
 
 #~ msgid "Subject Location"
-#~ msgstr "Subject location"
+#~ msgstr "Расположении объекта"
 
 #~ msgid ""
 #~ "\n"
@@ -1260,4 +1260,4 @@ msgstr ""
 #~ msgstr[3] "15c0f2d28d6dab1af1f6d94906beb627_pl_3"
 
 #~ msgid "Upload File"
-#~ msgstr "Upload File"
+#~ msgstr "Загрузить файл"
